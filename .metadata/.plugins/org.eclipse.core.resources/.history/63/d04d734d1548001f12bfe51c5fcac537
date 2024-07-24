@@ -1,0 +1,5 @@
+package com.movievault.app.service;
+
+public class MovieServiceImpl {
+
+}
