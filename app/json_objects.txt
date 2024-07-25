@@ -1,0 +1,13 @@
+{
+  "movieId": 1,
+  "title": "Avengers",
+  "director": "Russo Brothers",
+  "studio": "Marvel",
+  "movieCast": [
+    "RDJ",
+    "Chris Evans"
+  ],
+  "releaseYear": 2012,
+  "poster": "default.png",
+  "posterUrl": "url"
+}

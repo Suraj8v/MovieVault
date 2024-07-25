@@ -13,7 +13,7 @@ import java.util.Set;
 public class Movie {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer movieId;
 
     @Column(nullable = false, length = 200) //db level validation

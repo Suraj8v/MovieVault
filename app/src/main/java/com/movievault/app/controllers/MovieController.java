@@ -1,10 +1,13 @@
 package com.movievault.app.controllers;
 
 import java.io.IOException;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestPart;
@@ -18,7 +21,7 @@ import com.movievault.app.dto.MovieDto;
 import com.movievault.app.service.MovieServiceImpl;
 
 @RestController
-@RequestMapping("/api/v1/movie")
+@RequestMapping("/api/movie")
 public class MovieController {
 	
 	@Autowired
@@ -37,6 +40,18 @@ public class MovieController {
 	{
 		ObjectMapper objectMapper = new ObjectMapper();
 		return objectMapper.readValue(movieDto, MovieDto.class);
+	}
+	
+	@GetMapping("/{movieId}")
+	public ResponseEntity<MovieDto> getMovieHandler(@PathVariable Integer movieId)
+	{
+		return ResponseEntity.ok(movieService.getMovie(movieId));
+	}
+	
+	@GetMapping("/all")
+	public ResponseEntity<List<MovieDto>> getAllMoviesHandler()
+	{
+		return ResponseEntity.ok(movieService.getAllMovies());
 	}
 
 }

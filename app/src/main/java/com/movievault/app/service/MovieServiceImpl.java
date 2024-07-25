@@ -1,6 +1,7 @@
 package com.movievault.app.service;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -56,16 +57,43 @@ public class MovieServiceImpl implements MovieService {
 		
 	}
 
+
 	@Override
 	public MovieDto getMovie(Integer movieId) {
-		// TODO Auto-generated method stub
-		return null;
+		
+		//check the data in DB if it exists then fetch it
+		Movie movie = movieRepo.findById(movieId).orElseThrow(()->new RuntimeException("Movie not found!"));
+		
+		//generate poster url
+		String posterUrl =  baseUrl + "/file/" + movie.getPoster();
+		
+		//map the movieDto object and return it
+		MovieDto response = new MovieDto(movie.getMovieId(), movie.getTitle(), movie.getDirector(),
+				movie.getStudio(), movie.getMovieCast(), movie.getReleaseYear(), movie.getPoster(),posterUrl);
+		
+		
+		return response;
 	}
 
 	@Override
 	public List<MovieDto> getAllMovies() {
-		// TODO Auto-generated method stub
-		return null;
+		// 1.fetch all the data from DB
+		List<Movie> movies =	movieRepo.findAll();
+		
+		List<MovieDto> moviesDto = new ArrayList<MovieDto>();
+		
+		//2.iterate through all movies to generate posterurl for each movie and map the movieDto object
+		for(Movie movie : movies)
+		{
+			String posterUrl =  baseUrl + "/file/" + movie.getPoster();
+			
+			MovieDto response = new MovieDto(movie.getMovieId(), movie.getTitle(), movie.getDirector(),
+					movie.getStudio(), movie.getMovieCast(), movie.getReleaseYear(), movie.getPoster(),posterUrl);
+			
+			moviesDto.add(response);
+		}
+		
+		return moviesDto ;
 	}
 
 }
