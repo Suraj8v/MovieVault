@@ -51,6 +51,7 @@ public class MovieController {
 	@GetMapping("/all")
 	public ResponseEntity<List<MovieDto>> getAllMoviesHandler()
 	{
+		System.out.println(movieService.getAllMovies());
 		return ResponseEntity.ok(movieService.getAllMovies());
 	}
 
