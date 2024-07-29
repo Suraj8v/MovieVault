@@ -5182,3 +5182,131 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-07-26 21:30:07.620 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-26 21:32:19.139
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-07-26 21:32:57.887
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-26 21:32:58.743
+!MESSAGE Logback config file: C:\Users\sjagdale\OneDrive - Expleo France\Desktop\MovieVault\MovieVault\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-07-26 21:33:09.596
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sjagdale'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:33:47.958
+!MESSAGE Could not transfer metadata org.springframework.boot:spring-boot-starter-parent:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/44.209.124.32, repo.spring.io/52.22.177.50, repo.spring.io/34.225.228.28] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:34:18.142
+!MESSAGE Could not transfer metadata org.springframework.boot:spring-boot-dependencies:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/52.22.177.50, repo.spring.io/44.209.124.32, repo.spring.io/34.225.228.28] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:34:19.760
+!MESSAGE org.springframework.boot:spring-boot-dependencies:3.3.2-SNAPSHOT/maven-metadata.xml failed to transfer from https://repo.spring.io/snapshot during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-dependencies:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/52.22.177.50, repo.spring.io/44.209.124.32, repo.spring.io/34.225.228.28] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:34:49.950
+!MESSAGE Could not transfer metadata org.springframework.boot:spring-boot-starter-data-jpa:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/52.22.177.50, repo.spring.io/44.209.124.32, repo.spring.io/34.225.228.28] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:34:49.966
+!MESSAGE org.springframework.boot:spring-boot-starter-data-jpa:3.3.2-SNAPSHOT/maven-metadata.xml failed to transfer from https://repo.spring.io/snapshot during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-data-jpa:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/52.22.177.50, repo.spring.io/44.209.124.32, repo.spring.io/34.225.228.28] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:35:20.036
+!MESSAGE Could not transfer metadata org.springframework.boot:spring-boot-starter-aop:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/34.225.228.28, repo.spring.io/44.209.124.32, repo.spring.io/52.22.177.50] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:35:20.058
+!MESSAGE org.springframework.boot:spring-boot-starter-aop:3.3.2-SNAPSHOT/maven-metadata.xml failed to transfer from https://repo.spring.io/snapshot during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-aop:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/34.225.228.28, repo.spring.io/44.209.124.32, repo.spring.io/52.22.177.50] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:35:50.118
+!MESSAGE Could not transfer metadata org.springframework.boot:spring-boot-starter:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/34.225.228.28, repo.spring.io/44.209.124.32, repo.spring.io/52.22.177.50] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:35:50.140
+!MESSAGE org.springframework.boot:spring-boot-starter:3.3.2-SNAPSHOT/maven-metadata.xml failed to transfer from https://repo.spring.io/snapshot during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/34.225.228.28, repo.spring.io/44.209.124.32, repo.spring.io/52.22.177.50] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:36:20.208
+!MESSAGE Could not transfer metadata org.springframework.boot:spring-boot:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/52.22.177.50, repo.spring.io/44.209.124.32, repo.spring.io/34.225.228.28] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:36:20.223
+!MESSAGE org.springframework.boot:spring-boot:3.3.2-SNAPSHOT/maven-metadata.xml failed to transfer from https://repo.spring.io/snapshot during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/52.22.177.50, repo.spring.io/44.209.124.32, repo.spring.io/34.225.228.28] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:36:50.428
+!MESSAGE Could not transfer metadata org.springframework.boot:spring-boot-autoconfigure:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/52.22.177.50, repo.spring.io/44.209.124.32, repo.spring.io/34.225.228.28] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:36:50.461
+!MESSAGE org.springframework.boot:spring-boot-autoconfigure:3.3.2-SNAPSHOT/maven-metadata.xml failed to transfer from https://repo.spring.io/snapshot during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-autoconfigure:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/52.22.177.50, repo.spring.io/44.209.124.32, repo.spring.io/34.225.228.28] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:37:20.540
+!MESSAGE Could not transfer metadata org.springframework.boot:spring-boot-starter-logging:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/34.225.228.28, repo.spring.io/52.22.177.50, repo.spring.io/44.209.124.32] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:37:20.556
+!MESSAGE org.springframework.boot:spring-boot-starter-logging:3.3.2-SNAPSHOT/maven-metadata.xml failed to transfer from https://repo.spring.io/snapshot during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-logging:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/34.225.228.28, repo.spring.io/52.22.177.50, repo.spring.io/44.209.124.32] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:37:51.169
+!MESSAGE Could not transfer metadata org.springframework.boot:spring-boot-starter-jdbc:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/44.209.124.32, repo.spring.io/34.225.228.28, repo.spring.io/52.22.177.50] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:37:51.188
+!MESSAGE org.springframework.boot:spring-boot-starter-jdbc:3.3.2-SNAPSHOT/maven-metadata.xml failed to transfer from https://repo.spring.io/snapshot during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-jdbc:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/44.209.124.32, repo.spring.io/34.225.228.28, repo.spring.io/52.22.177.50] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:38:22.282
+!MESSAGE Could not transfer metadata org.springframework.boot:spring-boot-starter-validation:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/44.209.124.32, repo.spring.io/34.225.228.28, repo.spring.io/52.22.177.50] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:38:22.318
+!MESSAGE org.springframework.boot:spring-boot-starter-validation:3.3.2-SNAPSHOT/maven-metadata.xml failed to transfer from https://repo.spring.io/snapshot during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-validation:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/44.209.124.32, repo.spring.io/34.225.228.28, repo.spring.io/52.22.177.50] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:38:52.614
+!MESSAGE Could not transfer metadata org.springframework.boot:spring-boot-starter-web:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/34.225.228.28, repo.spring.io/44.209.124.32, repo.spring.io/52.22.177.50] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:38:52.634
+!MESSAGE org.springframework.boot:spring-boot-starter-web:3.3.2-SNAPSHOT/maven-metadata.xml failed to transfer from https://repo.spring.io/snapshot during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-web:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/34.225.228.28, repo.spring.io/44.209.124.32, repo.spring.io/52.22.177.50] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:39:22.721
+!MESSAGE Could not transfer metadata org.springframework.boot:spring-boot-starter-json:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/52.22.177.50, repo.spring.io/34.225.228.28, repo.spring.io/44.209.124.32] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:39:22.758
+!MESSAGE org.springframework.boot:spring-boot-starter-json:3.3.2-SNAPSHOT/maven-metadata.xml failed to transfer from https://repo.spring.io/snapshot during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-json:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/52.22.177.50, repo.spring.io/34.225.228.28, repo.spring.io/44.209.124.32] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:39:53.044
+!MESSAGE Could not transfer metadata org.springframework.boot:spring-boot-starter-tomcat:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/52.22.177.50, repo.spring.io/34.225.228.28, repo.spring.io/44.209.124.32] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:39:53.078
+!MESSAGE org.springframework.boot:spring-boot-starter-tomcat:3.3.2-SNAPSHOT/maven-metadata.xml failed to transfer from https://repo.spring.io/snapshot during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-tomcat:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/52.22.177.50, repo.spring.io/34.225.228.28, repo.spring.io/44.209.124.32] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:40:23.200
+!MESSAGE Could not transfer metadata org.springframework.boot:spring-boot-devtools:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/52.22.177.50, repo.spring.io/34.225.228.28, repo.spring.io/44.209.124.32] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:40:23.237
+!MESSAGE org.springframework.boot:spring-boot-devtools:3.3.2-SNAPSHOT/maven-metadata.xml failed to transfer from https://repo.spring.io/snapshot during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-devtools:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/52.22.177.50, repo.spring.io/34.225.228.28, repo.spring.io/44.209.124.32] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:40:53.344
+!MESSAGE Could not transfer metadata org.springframework.boot:spring-boot-starter-test:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/52.22.177.50, repo.spring.io/34.225.228.28, repo.spring.io/44.209.124.32] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:40:53.382
+!MESSAGE org.springframework.boot:spring-boot-starter-test:3.3.2-SNAPSHOT/maven-metadata.xml failed to transfer from https://repo.spring.io/snapshot during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-starter-test:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/52.22.177.50, repo.spring.io/34.225.228.28, repo.spring.io/44.209.124.32] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:41:23.451
+!MESSAGE Could not transfer metadata org.springframework.boot:spring-boot-test:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/44.209.124.32, repo.spring.io/52.22.177.50, repo.spring.io/34.225.228.28] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:41:23.469
+!MESSAGE org.springframework.boot:spring-boot-test:3.3.2-SNAPSHOT/maven-metadata.xml failed to transfer from https://repo.spring.io/snapshot during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-test:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/44.209.124.32, repo.spring.io/52.22.177.50, repo.spring.io/34.225.228.28] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:41:53.569
+!MESSAGE Could not transfer metadata org.springframework.boot:spring-boot-test-autoconfigure:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/34.225.228.28, repo.spring.io/44.209.124.32, repo.spring.io/52.22.177.50] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:41:53.598
+!MESSAGE org.springframework.boot:spring-boot-test-autoconfigure:3.3.2-SNAPSHOT/maven-metadata.xml failed to transfer from https://repo.spring.io/snapshot during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-test-autoconfigure:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/34.225.228.28, repo.spring.io/44.209.124.32, repo.spring.io/52.22.177.50] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:42:24.556
+!MESSAGE Could not transfer metadata org.springframework.boot:spring-boot-maven-plugin:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/34.225.228.28, repo.spring.io/44.209.124.32, repo.spring.io/52.22.177.50] failed: Connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-26 21:42:24.577
+!MESSAGE org.springframework.boot:spring-boot-maven-plugin:3.3.2-SNAPSHOT/maven-metadata.xml failed to transfer from https://repo.spring.io/snapshot during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.boot:spring-boot-maven-plugin:3.3.2-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (https://repo.spring.io/snapshot): Connect to repo.spring.io:443 [repo.spring.io/34.225.228.28, repo.spring.io/44.209.124.32, repo.spring.io/52.22.177.50] failed: Connect timed out

@@ -1,6 +1,9 @@
 package com.movievault.app.service;
 
+import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -32,13 +35,17 @@ public class MovieServiceImpl implements MovieService {
 	public MovieDto addMovie(MovieDto movieDto, MultipartFile file) throws IOException {
 		
 		//1.upload the file
+		if(Files.exists(Paths.get(path + File.separator + file.getOriginalFilename())))
+		{
+			throw new RuntimeException("File already exists, please enter another filename");
+		}
 		String uploadedFileName = fileService.uploadFile(path, file);	
 		
 		//2. set the value of field poster as filename
 		movieDto.setPoster(uploadedFileName);
 		
 		//3.map the dto to movie object
-		Movie movie = new  Movie(movieDto.getMovieId(), movieDto.getTitle(), movieDto.getDirector(), 
+		Movie movie = new  Movie(null, movieDto.getTitle(), movieDto.getDirector(), 
 				movieDto.getStudio(), movieDto.getMovieCast(),
 				movieDto.getReleaseYear(),
 				movieDto.getPoster());

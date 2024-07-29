@@ -11,3 +11,59 @@
   "poster": "default.png",
   "posterUrl": "url"
 }
+
+{
+  "movieId": 2,
+  "title": "Inception",
+  "director": "Christopher Nolan",
+  "studio": "Warner Bros.",
+  "movieCast": [
+    "Leonardo DiCaprio",
+    "Joseph Gordon-Levitt"
+  ],
+  "releaseYear": 2010,
+  "poster": "default.png",
+  "posterUrl": "url"
+}
+
+{
+  "movieId": 3,
+  "title": "The Matrix",
+  "director": "The Wachowskis",
+  "studio": "Warner Bros.",
+  "movieCast": [
+    "Keanu Reeves",
+    "Laurence Fishburne"
+  ],
+  "releaseYear": 1999,
+   "poster": "default.png",
+  "posterUrl": "url"
+}
+
+{
+  "movieId": 4,
+  "title": "Titanic",
+  "director": "James Cameron",
+  "studio": "20th Century Fox",
+  "movieCast": [
+    "Leonardo DiCaprio",
+    "Kate Winslet"
+  ],
+  "releaseYear": 1997,
+     "poster": "default.png",
+  "posterUrl": "url"
+}
+
+{
+  "movieId": 5,
+  "title": "Jurassic Park",
+  "director": "Steven Spielberg",
+  "studio": "Universal Pictures",
+  "movieCast": [
+    "Sam Neill",
+    "Laura Dern"
+  ],
+  "releaseYear": 1993,
+  "poster": "default.png",
+  "posterUrl": "url"
+}
