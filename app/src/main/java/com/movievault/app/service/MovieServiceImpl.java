@@ -103,4 +103,49 @@ public class MovieServiceImpl implements MovieService {
 		return moviesDto ;
 	}
 
+
+	@Override
+	public MovieDto updateMovie(Integer movieId, MovieDto movieDto, MultipartFile file) throws IOException {
+		//1. check if movie exists in our DB or not
+		Movie mv = movieRepo.findById(movieId).orElseThrow(()->new RuntimeException("Movie not found!"));
+		
+		//2.if file is null do nothing
+		//if the file is not null then delete the file which is associated with old record and replace it with updated new file
+		
+		String fileName = mv.getPoster();
+		if(file!=null)
+		{
+			Files.deleteIfExists(Paths.get(path+File.separator+fileName));
+			fileName = fileService.uploadFile(path, file);
+		}
+		
+		//3. set movieDto's poster value
+		movieDto.setPoster(fileName);
+		
+		//4. map it to movie object
+		Movie movie = new Movie(mv.getMovieId(), movieDto.getTitle(), movieDto.getDirector(), 
+				movieDto.getStudio(), movieDto.getMovieCast(),
+				movieDto.getReleaseYear(),
+				movieDto.getPoster());
+		
+		//5.save the movie object
+		movieRepo.save(movie);
+		
+		//6.generate poster url
+		String posterUrl = baseUrl+"/file/"+fileName;
+		
+		//7.map to moviedto and return it
+		MovieDto response = new MovieDto(movie.getMovieId(), movie.getTitle(), movie.getDirector(),
+				movie.getStudio(), movie.getMovieCast(), movie.getReleaseYear(), movie.getPoster(),posterUrl);;
+		
+		return response;
+	}
+
+
+	@Override
+	public String deleteMovie(Integer movieId) {
+		
+		return null;
+	}
+
 }
