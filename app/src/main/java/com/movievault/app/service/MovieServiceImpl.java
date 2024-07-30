@@ -143,9 +143,17 @@ public class MovieServiceImpl implements MovieService {
 
 
 	@Override
-	public String deleteMovie(Integer movieId) {
+	public String deleteMovie(Integer movieId) throws IOException {
+		//1. check if movie exists in Db
 		
-		return null;
+		Movie mv = movieRepo.findById(movieId).orElseThrow(()->new RuntimeException("Movie not found!"));
+
+		//2. delete the file associated with it
+		Files.deleteIfExists(Paths.get(path+File.separator+mv.getPoster()));
+		
+		//3. delete the movie
+		movieRepo.delete(mv);
+		return "Movie deleted with ID : "+movieId;
 	}
 
 }
